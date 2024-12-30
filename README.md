@@ -1,0 +1,3 @@
+# Firebase Realtime Database Race Condition
+
+This repository demonstrates a race condition in Firebase's Realtime Database and its solution.  When multiple clients write to the database concurrently, without proper synchronization mechanisms, the last write wins. This can result in inconsistent data and unexpected application behavior.  The `raceConditionBug.js` file illustrates the problem, and `raceConditionSolution.js` demonstrates a solution using transactions.
